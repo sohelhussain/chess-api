@@ -22,6 +22,7 @@ export class Game {
                 color: 'white'
             }
         }))
+        
         this.player2.send(JSON.stringify({
             type: INIT_GAME,
             payload: {
